@@ -1,9 +1,0 @@
-﻿  Board.cpp
-  Computer.cpp
-  Game.cpp
-  GameButton.cpp
-  moc_Game.cpp
-  Ship.cpp
-  Square.cpp
-  main.cpp
-  Battleships.vcxproj -> C:\Users\Lenovo\source\repos\Battleships\Win32\Release\Battleships.exe
