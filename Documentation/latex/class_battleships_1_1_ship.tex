@@ -1,0 +1,224 @@
+\hypertarget{class_battleships_1_1_ship}{}\doxysection{Battleships\+::Ship Class Reference}
+\label{class_battleships_1_1_ship}\index{Battleships::Ship@{Battleships::Ship}}
+
+
+\mbox{\hyperlink{class_battleships_1_1_ship}{Ship}} class used to control ship placement and mouse events on it.  
+
+
+
+
+{\ttfamily \#include $<$Ship.\+h$>$}
+
+Inheritance diagram for Battleships\+::Ship\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_battleships_1_1_ship}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_battleships_1_1_ship_aa4c59324bf5a1332e1386feec812af48}{Ship}} (int size, \mbox{\hyperlink{class_battleships_1_1_mouse_controller}{Battleships\+::\+Mouse\+Controller}} $\ast$mouse\+Controller=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor of \mbox{\hyperlink{class_battleships_1_1_ship}{Ship}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_battleships_1_1_ship_abbb1d39b97b6745d0d221ac74568ba06}{display}} (Q\+Graphics\+Scene $\ast$scene, int x, int y)
+\begin{DoxyCompactList}\small\item\em Function responsible for displaying object on scene. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_battleships_1_1_ship_ab2f304f881967349647da2fd5ab6d4cc}{mouse\+Press\+Event}} (Q\+Graphics\+Scene\+Mouse\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Function called when mouse\+Press\+Event occurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_battleships_1_1_ship_a67712ec80a31e9ffc887c6214913156f}{mouse\+Release\+Event}} (Q\+Graphics\+Scene\+Mouse\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Function called when mouse\+Release\+Event occurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_battleships_1_1_ship_a961101e1f28a49aa200eb93b225ca260}{mouse\+Double\+Click\+Event}} (Q\+Graphics\+Scene\+Mouse\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Function called when mouse\+Double\+Click\+Event occurs. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_battleships_1_1_ship_acfc83ed227dd8f6d52848d9854082e3e}{byte\+Negation}} (int number)
+\begin{DoxyCompactList}\small\item\em Function that inverts number, if 0 then 1, if 1 then 0. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_battleships_1_1_ship_ac4d3a98e3548726271287ad2639cc068}\label{class_battleships_1_1_ship_ac4d3a98e3548726271287ad2639cc068}} 
+void \mbox{\hyperlink{class_battleships_1_1_ship_ac4d3a98e3548726271287ad2639cc068}{snap\+To\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Function that snaps \mbox{\hyperlink{class_battleships_1_1_ship}{Ship}} object position to grid of \mbox{\hyperlink{class_battleships_1_1_board}{Board}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_battleships_1_1_ship_a5561a33424a889c9aa3246db26908df7}\label{class_battleships_1_1_ship_a5561a33424a889c9aa3246db26908df7}} 
+void \mbox{\hyperlink{class_battleships_1_1_ship_a5561a33424a889c9aa3246db26908df7}{flip\+Ship}} ()
+\begin{DoxyCompactList}\small\item\em Function that flips \mbox{\hyperlink{class_battleships_1_1_ship}{Ship}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_battleships_1_1_ship_a1766b5a1a185bb3410283b919e5a5bef}{set\+On\+Board}} (bool state)
+\begin{DoxyCompactList}\small\item\em Function sets if ships is on \mbox{\hyperlink{class_battleships_1_1_board}{Board}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_battleships_1_1_ship_ac627808be49eebce0d5ae5251427555b}{get\+On\+Board}} ()
+\begin{DoxyCompactList}\small\item\em Function that returns if ship is on \mbox{\hyperlink{class_battleships_1_1_board}{Board}} or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+Pixmap \mbox{\hyperlink{class_battleships_1_1_ship_a227d59d9bf4abf7e71d619ce68af438d}{merge\+Images}} (Q\+List$<$ const Q\+Pixmap $\ast$ $>$ image\+List)
+\begin{DoxyCompactList}\small\item\em Function that merges images. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_battleships_1_1_ship_ae79b4b3851b66b3ed9084d5158be0e25}{set\+Board}} (\mbox{\hyperlink{class_battleships_1_1_board}{Battleships\+::\+Board}} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Function that sets \mbox{\hyperlink{class_battleships_1_1_board}{Board}} on which ship can be placed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_battleships_1_1_ship}{Ship}} class used to control ship placement and mouse events on it. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_battleships_1_1_ship_aa4c59324bf5a1332e1386feec812af48}\label{class_battleships_1_1_ship_aa4c59324bf5a1332e1386feec812af48}} 
+\index{Battleships::Ship@{Battleships::Ship}!Ship@{Ship}}
+\index{Ship@{Ship}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{Ship()}{Ship()}}
+{\footnotesize\ttfamily Battleships\+::\+Ship\+::\+Ship (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{\mbox{\hyperlink{class_battleships_1_1_mouse_controller}{Battleships\+::\+Mouse\+Controller}} $\ast$}]{mouse\+Controller = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+Constructor of \mbox{\hyperlink{class_battleships_1_1_ship}{Ship}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & -\/ size of ship \\
+\hline
+{\em mouse\+Controller} & -\/ pointer to \mbox{\hyperlink{class_battleships_1_1_mouse_controller}{Mouse\+Controller}} that will control the ship \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_battleships_1_1_ship_acfc83ed227dd8f6d52848d9854082e3e}\label{class_battleships_1_1_ship_acfc83ed227dd8f6d52848d9854082e3e}} 
+\index{Battleships::Ship@{Battleships::Ship}!byteNegation@{byteNegation}}
+\index{byteNegation@{byteNegation}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{byteNegation()}{byteNegation()}}
+{\footnotesize\ttfamily int Battleships\+::\+Ship\+::byte\+Negation (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+
+
+Function that inverts number, if 0 then 1, if 1 then 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & -\/ number that will be inverted(only range from 0 to 1) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+inverted number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_battleships_1_1_ship_abbb1d39b97b6745d0d221ac74568ba06}\label{class_battleships_1_1_ship_abbb1d39b97b6745d0d221ac74568ba06}} 
+\index{Battleships::Ship@{Battleships::Ship}!display@{display}}
+\index{display@{display}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Battleships\+::\+Ship\+::display (\begin{DoxyParamCaption}\item[{Q\+Graphics\+Scene $\ast$}]{scene,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Function responsible for displaying object on scene. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & -\/ pointer to scene on which object will be displayed \\
+\hline
+{\em x} & -\/ position on x axis on scene \\
+\hline
+{\em y} & -\/ position on y axis on scene \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_battleships_1_1_ship_ac627808be49eebce0d5ae5251427555b}\label{class_battleships_1_1_ship_ac627808be49eebce0d5ae5251427555b}} 
+\index{Battleships::Ship@{Battleships::Ship}!getOnBoard@{getOnBoard}}
+\index{getOnBoard@{getOnBoard}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{getOnBoard()}{getOnBoard()}}
+{\footnotesize\ttfamily bool Battleships\+::\+Ship\+::get\+On\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function that returns if ship is on \mbox{\hyperlink{class_battleships_1_1_board}{Board}} or not. 
+
+\begin{DoxyReturn}{Returns}
+-\/ bool of on\+Board variable 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_battleships_1_1_ship_a227d59d9bf4abf7e71d619ce68af438d}\label{class_battleships_1_1_ship_a227d59d9bf4abf7e71d619ce68af438d}} 
+\index{Battleships::Ship@{Battleships::Ship}!mergeImages@{mergeImages}}
+\index{mergeImages@{mergeImages}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{mergeImages()}{mergeImages()}}
+{\footnotesize\ttfamily Q\+Pixmap Battleships\+::\+Ship\+::merge\+Images (\begin{DoxyParamCaption}\item[{Q\+List$<$ const Q\+Pixmap $\ast$ $>$}]{image\+List }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Function that merges images. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+List} & -\/ list of images to merge \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+single Q\+Pixmap 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_battleships_1_1_ship_a961101e1f28a49aa200eb93b225ca260}\label{class_battleships_1_1_ship_a961101e1f28a49aa200eb93b225ca260}} 
+\index{Battleships::Ship@{Battleships::Ship}!mouseDoubleClickEvent@{mouseDoubleClickEvent}}
+\index{mouseDoubleClickEvent@{mouseDoubleClickEvent}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{mouseDoubleClickEvent()}{mouseDoubleClickEvent()}}
+{\footnotesize\ttfamily void Battleships\+::\+Ship\+::mouse\+Double\+Click\+Event (\begin{DoxyParamCaption}\item[{Q\+Graphics\+Scene\+Mouse\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+Function called when mouse\+Double\+Click\+Event occurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & -\/ pointer to scene mouse event \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_battleships_1_1_ship_ab2f304f881967349647da2fd5ab6d4cc}\label{class_battleships_1_1_ship_ab2f304f881967349647da2fd5ab6d4cc}} 
+\index{Battleships::Ship@{Battleships::Ship}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily void Battleships\+::\+Ship\+::mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{Q\+Graphics\+Scene\+Mouse\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+Function called when mouse\+Press\+Event occurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & -\/ pointer to scene mouse event \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_battleships_1_1_ship_a67712ec80a31e9ffc887c6214913156f}\label{class_battleships_1_1_ship_a67712ec80a31e9ffc887c6214913156f}} 
+\index{Battleships::Ship@{Battleships::Ship}!mouseReleaseEvent@{mouseReleaseEvent}}
+\index{mouseReleaseEvent@{mouseReleaseEvent}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{mouseReleaseEvent()}{mouseReleaseEvent()}}
+{\footnotesize\ttfamily void Battleships\+::\+Ship\+::mouse\+Release\+Event (\begin{DoxyParamCaption}\item[{Q\+Graphics\+Scene\+Mouse\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+Function called when mouse\+Release\+Event occurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & -\/ pointer to scene mouse event \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_battleships_1_1_ship_ae79b4b3851b66b3ed9084d5158be0e25}\label{class_battleships_1_1_ship_ae79b4b3851b66b3ed9084d5158be0e25}} 
+\index{Battleships::Ship@{Battleships::Ship}!setBoard@{setBoard}}
+\index{setBoard@{setBoard}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{setBoard()}{setBoard()}}
+{\footnotesize\ttfamily void Battleships\+::\+Ship\+::set\+Board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_battleships_1_1_board}{Battleships\+::\+Board}} $\ast$}]{board }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Function that sets \mbox{\hyperlink{class_battleships_1_1_board}{Board}} on which ship can be placed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & -\/ pointer to \mbox{\hyperlink{class_battleships_1_1_board}{Board}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_battleships_1_1_ship_a1766b5a1a185bb3410283b919e5a5bef}\label{class_battleships_1_1_ship_a1766b5a1a185bb3410283b919e5a5bef}} 
+\index{Battleships::Ship@{Battleships::Ship}!setOnBoard@{setOnBoard}}
+\index{setOnBoard@{setOnBoard}!Battleships::Ship@{Battleships::Ship}}
+\doxysubsubsection{\texorpdfstring{setOnBoard()}{setOnBoard()}}
+{\footnotesize\ttfamily void Battleships\+::\+Ship\+::set\+On\+Board (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})}
+
+
+
+Function sets if ships is on \mbox{\hyperlink{class_battleships_1_1_board}{Board}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & -\/ state to set \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ship.\+h\item 
+Ship.\+cpp\end{DoxyCompactItemize}
