@@ -1,0 +1,97 @@
+\hypertarget{class_game}{}\doxysection{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+\mbox{\hyperlink{class_game}{Game}} class used to display and connect all the sub classes.  
+
+
+
+
+{\ttfamily \#include $<$Game.\+h$>$}
+
+
+
+Inheritance diagram for Game\+:
+% FIG 0
+
+
+Collaboration diagram for Game\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_aa333825d0bca80e91e53c7e23f053405}\label{class_game_aa333825d0bca80e91e53c7e23f053405}} 
+void \mbox{\hyperlink{class_game_aa333825d0bca80e91e53c7e23f053405}{play}} ()
+\begin{DoxyCompactList}\small\item\em Slot to start playing. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_a8272be134d16c277bb014ad6a22fc357}\label{class_game_a8272be134d16c277bb014ad6a22fc357}} 
+void \mbox{\hyperlink{class_game_a8272be134d16c277bb014ad6a22fc357}{quit}} ()
+\begin{DoxyCompactList}\small\item\em Slot to quit playing. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_a20d30146064ee53ccd099ba920f23b20}\label{class_game_a20d30146064ee53ccd099ba920f23b20}} 
+void \mbox{\hyperlink{class_game_a20d30146064ee53ccd099ba920f23b20}{restart\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Slot to restart game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_a32d7e09112c37ff84736ea797c1eb7f0}\label{class_game_a32d7e09112c37ff84736ea797c1eb7f0}} 
+{\bfseries Game} (Q\+Widget $\ast$parent=N\+U\+LL)
+\item 
+\mbox{\Hypertarget{class_game_a5ed7fc5be77080f7f6dd5363f7f007a1}\label{class_game_a5ed7fc5be77080f7f6dd5363f7f007a1}} 
+void \mbox{\hyperlink{class_game_a5ed7fc5be77080f7f6dd5363f7f007a1}{main\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Fuction to display main menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_a8119e3b9a632906c6808fa294b46a92a}\label{class_game_a8119e3b9a632906c6808fa294b46a92a}} 
+Q\+Graphics\+Scene $\ast$ {\bfseries scene}
+\item 
+\mbox{\Hypertarget{class_game_a6e6a99ef2310b919747ca9b281b2724b}\label{class_game_a6e6a99ef2310b919747ca9b281b2724b}} 
+\mbox{\hyperlink{class_battleships_1_1_mouse_controller}{Battleships\+::\+Mouse\+Controller}} $\ast$ {\bfseries mouse\+Controller}
+\item 
+\mbox{\Hypertarget{class_game_a0830c1600096eab91f48f2ef2df7da01}\label{class_game_a0830c1600096eab91f48f2ef2df7da01}} 
+\mbox{\hyperlink{class_battleships_1_1_computer}{Battleships\+::\+Computer}} $\ast$ {\bfseries computer}
+\item 
+\mbox{\Hypertarget{class_game_aa9b185ba040908b6b7ba995c5cda8c72}\label{class_game_aa9b185ba040908b6b7ba995c5cda8c72}} 
+\mbox{\hyperlink{class_battleships_1_1_board}{Battleships\+::\+Board}} $\ast$ {\bfseries board\+Left}
+\item 
+\mbox{\Hypertarget{class_game_ae3e980d77948adead284dee221e3ca3f}\label{class_game_ae3e980d77948adead284dee221e3ca3f}} 
+\mbox{\hyperlink{class_battleships_1_1_board}{Battleships\+::\+Board}} $\ast$ {\bfseries board\+Right}
+\item 
+\mbox{\Hypertarget{class_game_a927aa60dbafcbd37bce7468737097fbc}\label{class_game_a927aa60dbafcbd37bce7468737097fbc}} 
+\mbox{\hyperlink{class_battleships_1_1_board}{Battleships\+::\+Board}} $\ast$ {\bfseries board\+Ships}
+\item 
+\mbox{\Hypertarget{class_game_a3c9b846822cc76b7ab2b63e74dec5ef0}\label{class_game_a3c9b846822cc76b7ab2b63e74dec5ef0}} 
+\mbox{\hyperlink{class_battleships_1_1_ship}{Battleships\+::\+Ship}} $\ast$ {\bfseries big\+Ship}
+\item 
+\mbox{\Hypertarget{class_game_a427ed055efc22bcc2a74bb6e84d30112}\label{class_game_a427ed055efc22bcc2a74bb6e84d30112}} 
+\mbox{\hyperlink{class_battleships_1_1_ship}{Battleships\+::\+Ship}} $\ast$ {\bfseries medium\+Ship}
+\item 
+\mbox{\Hypertarget{class_game_aa574f370bfe164276aaef2d29f67ec67}\label{class_game_aa574f370bfe164276aaef2d29f67ec67}} 
+\mbox{\hyperlink{class_battleships_1_1_ship}{Battleships\+::\+Ship}} $\ast$ {\bfseries medium\+Ship\+\_\+2}
+\item 
+\mbox{\Hypertarget{class_game_abd8e80bdf714a85c19d47c3706e2c567}\label{class_game_abd8e80bdf714a85c19d47c3706e2c567}} 
+\mbox{\hyperlink{class_battleships_1_1_ship}{Battleships\+::\+Ship}} $\ast$ {\bfseries small\+Ship}
+\item 
+\mbox{\Hypertarget{class_game_a9139a7c93cc4b2abe7a2b42bdf3f653f}\label{class_game_a9139a7c93cc4b2abe7a2b42bdf3f653f}} 
+\mbox{\hyperlink{class_battleships_1_1_ship}{Battleships\+::\+Ship}} $\ast$ {\bfseries small\+Ship\+\_\+2}
+\item 
+\mbox{\Hypertarget{class_game_ae809e1f3603a1da9f91f31b5f8d19b49}\label{class_game_ae809e1f3603a1da9f91f31b5f8d19b49}} 
+Q\+Graphics\+Text\+Item $\ast$ {\bfseries text}
+\item 
+\mbox{\Hypertarget{class_game_a77c7bf8ed899ab7c95cc0fe011829151}\label{class_game_a77c7bf8ed899ab7c95cc0fe011829151}} 
+\mbox{\hyperlink{class_battleships_1_1_game_button}{Battleships\+::\+Game\+Button}} $\ast$ {\bfseries button}
+\item 
+\mbox{\Hypertarget{class_game_adda6cc178bd8b647f96b1a73da58308d}\label{class_game_adda6cc178bd8b647f96b1a73da58308d}} 
+Q\+Push\+Button $\ast$ {\bfseries button\+Start}
+\item 
+\mbox{\Hypertarget{class_game_aca884c7122f63c17fe97fb27d8c6edbd}\label{class_game_aca884c7122f63c17fe97fb27d8c6edbd}} 
+Q\+Push\+Button $\ast$ {\bfseries button\+Exit}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_game}{Game}} class used to display and connect all the sub classes. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Game.\+h\item 
+Game.\+cpp\end{DoxyCompactItemize}

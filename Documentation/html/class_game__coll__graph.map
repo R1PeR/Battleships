@@ -1,0 +1,11 @@
+<map id="Game" name="Game">
+<area shape="rect" id="node1" title="Game class used to display and connect all the sub classes." alt="" coords="544,137,601,164"/>
+<area shape="rect" id="node2" title=" " alt="" coords="247,5,359,32"/>
+<area shape="rect" id="node3" href="$class_battleships_1_1_board.html" title="Board class, class used to display and do calculations on boards." alt="" coords="238,67,367,93"/>
+<area shape="rect" id="node4" title=" " alt="" coords="47,117,117,144"/>
+<area shape="rect" id="node5" href="$class_battleships_1_1_computer.html" title="Computer class responsible for ai of the game." alt="" coords="227,117,378,144"/>
+<area shape="rect" id="node9" href="$class_battleships_1_1_game_button.html" title="GameButton class used to create clickable button responsible for staring and restarting game." alt="" coords="219,168,387,195"/>
+<area shape="rect" id="node6" href="$class_battleships_1_1_mouse_controller.html" title="MouseController class is responsible for holding state of ship carried and game progress." alt="" coords="208,309,397,336"/>
+<area shape="rect" id="node7" href="$class_battleships_1_1_ship.html" title="Ship class used to control ship placement and mouse events on it." alt="" coords="242,239,363,265"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,219,159,245"/>
+</map>
