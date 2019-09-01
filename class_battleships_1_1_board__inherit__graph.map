@@ -1,0 +1,4 @@
+<map id="Battleships::Board" name="Battleships::Board">
+<area shape="rect" id="node1" title="Board class, class used to display and do calculations on boards." alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="35,5,105,32"/>
+</map>
