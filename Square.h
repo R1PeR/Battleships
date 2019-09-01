@@ -82,7 +82,7 @@ namespace Battleships {
 		* \brief Signal that is emited on click
 		*/
 		void onClick();
-		//void afterCheck();
+		void afterCheck();
 	};
 }
 #endif

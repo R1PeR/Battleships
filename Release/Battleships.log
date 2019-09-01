@@ -1,9 +1,14 @@
-﻿  Board.cpp
+﻿  Moc'ing Square.h...
   Computer.cpp
-  Game.cpp
+  Board.cpp
   GameButton.cpp
-  moc_Game.cpp
+  Game.cpp
+  main.cpp
   Ship.cpp
   Square.cpp
-  main.cpp
+  moc_Computer.cpp
+  moc_Board.cpp
+  moc_GameButton.cpp
+  moc_Game.cpp
+  moc_Square.cpp
   Battleships.vcxproj -> C:\Users\Lenovo\source\repos\Battleships\Win32\Release\Battleships.exe
